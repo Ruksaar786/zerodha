@@ -19,27 +19,14 @@ h5 {
 .container {
   text-align: center;
 }
-
-.header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
-
 .navbar a {
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5px 20px;
-  padding-bottom: 20px;
-  padding-top: 0px;
-  color: #575b5f;
+  padding: 0%;
+}
+li {
+  list-style: none;
+  text-align: right;
+  justify-content: space-between;
+  color: rgb(10, 10, 10);
 }
 .container img {
   max-width: 60%;
@@ -63,5 +50,8 @@ h5 {
 
 img {
   max-width: 100%;
-  display: inline-block;
+  display: flex;
+}
+.div {
+  text-align: center;
 }
